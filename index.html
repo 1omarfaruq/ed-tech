@@ -19,10 +19,28 @@
             };
         </script>
         <!-- End Tailwind -->
+        <link rel="stylesheet" href="styles/style.css" />
     </head>
     <body>
         <!-- Start Header -->
-        <header></header>
+        <header class="container mx-auto mt-12 flex justify-between">
+            <div class="text-4xl font-semibold text-neutral-600 my-auto">
+                <a href="index.html">Jet Edu</a>
+            </div>
+
+            <ul class="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
+                <li class="hover:bg-gray-200 py-4 px-6">Home</li>
+                <li class="hover:bg-gray-200 py-4 px-6">About Us</li>
+                <li class="hover:bg-gray-200 py-4 px-6">Blog</li>
+                <li class="hover:bg-gray-200 py-4 px-6">Contact</li>
+            </ul>
+            <button class="block md:hidden py-3 px-4 rounded focus:outline-none hover:bg-gray-200">
+                <div class="w-5 h-1 bg-gray-600 mb-1"></div>
+                <div class="w-5 h-1 bg-gray-600 mb-1"></div>
+                <div class="w-5 h-1 bg-gray-600"></div>
+            </button>
+            <button class="border text-cyan-500 border-blue-400 py-1 px-4">Register</button>
+        </header>
         <!-- End Header -->
 
         <!-- Start Main -->
